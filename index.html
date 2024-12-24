@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Educational Website</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="courses.html">Courses</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div id="main-content">
+        <section id="home">
+            <h1>Welcome to Our Educational Website</h1>
+            <p>Your one-stop resource for online learning. We offer various courses to help you enhance your skills and knowledge.</p>
+            <a href="courses.html" class="btn">Explore Courses</a>
+        </section>
+
+        <section id="subject-search">
+            <h2>Search for Notes by Subject</h2>
+            <div class="search-box">
+                <input type="text" id="search-input" placeholder="Search for notes..." onkeyup="searchNotes()">
+                <button onclick="searchNotes()">Search</button>
+            </div>
+
+            <div id="search-results">
+                <h3>Search Results:</h3>
+                <ul id="results-list">
+                    <!-- Results will appear here -->
+                </ul>
+            </div>
+        </section>
+
+        <section id="quotes">
+            <h2>Inspirational Quotes About Education</h2>
+            <div class="quote">
+                <p>"Education is the most powerful weapon which you can use to change the world." - Nelson Mandela</p>
+            </div>
+            <div class="quote">
+                <p>"The beautiful thing about learning is that no one can take it away from you." - B.B. King</p>
+            </div>
+            <div class="quote">
+                <p>"An investment in knowledge pays the best interest." - Benjamin Franklin</p>
+            </div>
+            <div class="quote">
+                <p>"Education is the key to unlocking the golden door of freedom." - George Washington Carver</p>
+            </div>
+        </section>
+
+        <section id="features">
+            <h2>Our Features</h2>
+            <div class="feature">
+                <h3>Interactive Courses</h3>
+                <p>Engage with dynamic, interactive lessons and tutorials designed for all learning styles.</p>
+            </div>
+            <div class="feature">
+                <h3>Expert Instructors</h3>
+                <p>Learn from professionals with years of experience in the field.</p>
+            </div>
+            <div class="feature">
+                <h3>Certifications</h3>
+                <p>Receive certificates upon completing courses to showcase your achievements.</p>
+            </div>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Educational Website. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
